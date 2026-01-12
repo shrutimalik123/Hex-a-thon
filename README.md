@@ -28,11 +28,11 @@ We are building a data narrative that explores:
 *   **Exploratory Analysis**: 
     *   Created `analysis.ipynb` and Hex Logic.
 
-## 📋 Next Steps (Roadmap)
+## 🏁 Project Roadmap (Completed)
 
 *   [x] **Full Scale Analysis**: Run the pipeline on the complete 1,200+ row dataset.
 *   [x] **Hex Integration**: Live "Data App" completed with Country filters and interactive charts.
-*   [ ] **Submission**: Record the 3-minute demo video and submit to Devpost.
+*   [x] **Submission**: Video recorded and project **Submitted to Devpost & Hex**!
 
 ## 🛠️ How to Run Locally
 
