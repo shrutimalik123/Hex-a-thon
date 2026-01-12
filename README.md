@@ -1,6 +1,12 @@
 # Hex-a-thon: Mental Health in Tech ("The Silent Burnout")
 
+[![Hex App](https://img.shields.io/badge/Hex-Live_App-blue?style=for-the-badge&logo=hex)](https://app.hex.tech/virtual-hackathon/app/The-Silent-Burnout-0328dghwRZcpUauEx0hJne/latest)
+
 This project analyzes the [OSMI Mental Health in Tech Survey 2014](https://www.kaggle.com/osmi/mental-health-in-tech-survey) to uncover trends in workplace mental health and predict factors that influence seeking treatment.
+
+## 📽️ Demo Video
+
+[![Watch the Demo](https://img.youtube.com/vi/fX6BQgnKAQk/0.jpg)](https://youtu.be/fX6BQgnKAQk)
 
 ## 🚀 Project Overview
 
@@ -16,17 +22,16 @@ We are building a data narrative that explores:
     *   Successfully handled messy data input, particularly standardizing the free-text `Gender` column.
     *   **Full Scale Analysis**: Processed the complete dataset (~1,260 rows).
 *   **Predictive Modeling**: 
-    *   Developed `model.py` using **Scikit-Learn**.
+    *   Developed `model.py` and Hex Random Forest pipeline.
     *   Implemented a **Random Forest Classifier** to predict the `treatment` variable.
-    *   **Result**: Achieved **80% Accuracy** on the test set.
+    *   **Result**: Achieved **64.1% Accuracy** identifying key drivers like `care_options` and `benefits`.
 *   **Exploratory Analysis**: 
-    *   Created `analysis.ipynb` for initial EDA and visualizations.
+    *   Created `analysis.ipynb` and Hex Logic.
 
 ## 📋 Next Steps (Roadmap)
 
 *   [x] **Full Scale Analysis**: Run the pipeline on the complete 1,200+ row dataset.
-*   [ ] **Hex Integration**: Port the cleaning and analysis logic into a **Hex Project** for interactive dashboards.
-*   [ ] **Storytelling**: Refine the "Silent Burnout" narrative for the final submission.
+*   [x] **Hex Integration**: Live "Data App" completed with Country filters and interactive charts.
 *   [ ] **Submission**: Record the 3-minute demo video and submit to Devpost.
 
 ## 🛠️ How to Run Locally
